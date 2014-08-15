@@ -1,0 +1,8 @@
+<!-- Usage: save in ~/.config/sublime-text-3/Packages/User. (Different for ST2, of course.) You can save the file as whatever you'd like, as long as it ends in sublime-snippet, and you can also change the tab trigger. -->
+
+<snippet>
+	<content><![CDATA[
+<script src="${1:}"></script>
+]]></content>
+	<tabTrigger>scriptsrc</tabTrigger>
+</snippet>
