@@ -1,0 +1,28 @@
+'.source.js':
+  'Callback Err Data':
+    'prefix': 'callback'
+    'body': """
+function callback(err,data){
+  if(err) throw(err);
+  return ${1:data};
+}
+    """
+
+'.source.js':
+  'Mocha Describe Block':
+    'prefix': 'mocha:describe'
+    'body': """
+describe('${1:name of thing}', function(){
+  it('${2:expectation}', function(done) {
+  });
+});
+    """
+
+'.source.js':
+  'Module Exports':
+    'prefix': 'modex'
+    'body': """
+module.exports = function($1){
+  $2
+}
+    """
