@@ -1,4 +1,4 @@
-atom-snippets
+Snippets
 =============
 
-Atom Snippets
+Snippets to assist web developers
